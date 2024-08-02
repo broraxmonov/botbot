@@ -95,9 +95,6 @@ bot.on('message', async msg => {
 	}
 });
 
-// app.get('/', (req, res)=> {
-//      res.send('Main app')
-// })
 
 app.post('/web-data', async (req, res) => {
 	const { queryID, products } = req.body;
